@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "built_at_utc": "2026-10-21T18:54:27+00:00",
+  "n_movies": 4803,
+  "n_features": 25456,
+  "weights": {
+    "overview": 0.3,
+    "keywords": 0.28,
+    "genres": 0.22,
+    "cast": 0.12,
+    "director": 0.08
+  },
+  "blocks": {
+    "overview": [
+      0,
+      17468
+    ],
+    "keywords": [
+      17468,
+      21963
+    ],
+    "genres": [
+      21963,
+      21983
+    ],
+    "cast": [
+      21983,
+      24582
+    ],
+    "director": [
+      24582,
+      25456
+    ]
+  },
+  "top_cast": 4,
+  "overview_reason_min": 0.15,
+  "libs": {
+    "scikit-learn": "1.8.0",
+    "pandas": "3.0.2"
+  },
+  "notes": "poster_path is not in the TMDB 5000 CSVs; optional artifacts/poster_paths.json {movie_id: path} fills it."
+}
